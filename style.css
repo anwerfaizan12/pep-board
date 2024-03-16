@@ -1,0 +1,144 @@
+
+        .toolbar {
+            border: 1px solid gray;
+            border-radius: 4px;
+
+            width: 90vw;
+            /* trick element center */
+            margin: 0 auto;
+            /* the children should have
+             space for alignment */
+            height: 80px;
+
+            display: flex;
+            align-items: center;
+            justify-content: space-evenly;
+
+        }
+        .tool-img {
+            /* img ko change to usko height */
+            height: 50px;
+        }
+
+        .color-container {
+            border: 1px solid gray;
+            border-radius: 3px;
+            height: 50px;
+            width: 150px;
+
+            display: flex;
+            align-items: center;
+            justify-content: space-evenly;
+        }
+
+        .color {
+            height: 40px;
+            width: 40px;
+            border-radius: 50%;
+            cursor: pointer;
+        }
+
+        .red {
+            background-color:
+                red        }
+
+        .pink {
+            background-color:
+                pink;
+        }
+
+        .green {
+            background-color:
+                green;
+        }
+
+        /* tool options */
+        .size-box {
+            width: 150px;
+            height: 30px;
+            border: 1px solid gray;
+            align-items: center;
+            justify-content: space-evenly;
+            /* display: flex; */
+            display: none;
+        }
+
+        .size {
+            background-color: lightsteelblue;
+            border-radius: 50%;
+        }
+
+        .size1 {
+            height: 10px;
+            width: 10px;
+        }
+
+        .size2 {
+            height: 14px;
+            width: 14px;
+        }
+
+        .size3 {
+            height: 18px;
+            width: 18px;
+        }
+
+        .size4 {
+            height: 22px;
+            width: 22px;
+        }
+
+
+        /* icons  */
+        .fas {
+            font-size: 2rem;
+            cursor: pointer;
+        }
+
+        .fa{
+            font-size: 2rem;
+            cursor: pointer;
+        }
+
+        /* sticky notes */
+
+        .sticky{
+            width:166px;
+            height: 170px;;
+        }
+
+        .navbar{
+            height:20px;
+            width:170px;
+            /* border:1px solid gray; */
+            display:flex;
+            justify-content:right ;
+            align-items: center;
+            box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+        }
+
+        .close{
+            height: 15px;
+            width: 15px;
+            background-color: crimson;
+            border-radius: 50%;
+            margin-right: 5px;
+        }
+
+        .minimize{
+            height: 15px;
+            width: 15px;
+            background-color: green;
+            border-radius: 50%;
+            margin-right: 5px;
+        }
+
+        .textarea{
+            box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+            height:145px;
+            width:166px;
+            outline: none;
+            border: none;
+            border-top: 2px solid gray;
+        }
+/* Displaying e538a4ef-adb0-4a94-ac57-a395fa39fdd6.css. */
